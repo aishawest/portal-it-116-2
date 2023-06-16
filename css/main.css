@@ -1,13 +1,16 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 0.95em;
-    line-height: 1.5em;
+   background-color: pink;
+   font-family: 'Poppins', sans-serif;
+   font-size: 0.95em;
+   line-height: 1.5em;
 }
+
 
 ::selection {
     color: #000; 
@@ -20,6 +23,10 @@ h1 {
     background: #fff;
     line-height: 2.5em;
 }
+h1.page-header{
+    font-family: 'Epilogue', sans-serif;
+}
+
 
 main.wrapper {
     background-color: white;
